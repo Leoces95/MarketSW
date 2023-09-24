@@ -5,7 +5,7 @@ using Market.Share.Entities;
 
 namespace Market.API.Data
 {
-    public class DataContext:DbContext
+    public class DataContext: DbContext
     {
         // Utilizar las propiedades de DbContext
         public DataContext(DbContextOptions<DataContext> options) : base(options) {
